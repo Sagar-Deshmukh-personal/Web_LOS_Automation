@@ -1,4 +1,4 @@
-@test
+@sanity @test 
 Feature: To demonstarte login feature 
 
 Background:
