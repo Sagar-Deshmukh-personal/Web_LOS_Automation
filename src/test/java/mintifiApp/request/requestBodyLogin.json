@@ -1,0 +1,122 @@
+{
+
+    "validMobileNumber":{
+        "mobileNumber": 7765202222    ,
+        "custId": ""
+    },
+    
+    "verifyMobileNumberUseingMpin": {
+        "mobileNumber": 7765202222,
+        "mpin": "1111",
+        "module": "LOGIN",
+        "custId": ""
+    },
+    
+    "validCustid":{
+        "mobileNumber": "",
+        "custId": "GPW073"
+    },
+
+    "verifyCustidUseingMpin": {
+        "mobileNumber": "",
+        "mpin": 1111,
+        "module": "LOGIN",
+        "custId": "GPW073"
+    },
+
+    "verifySendOtp":{
+        "mobileNumber": "8894947572",
+        "module": "LOGIN",
+        "custId": ""
+    },
+
+    "verifyOtp":{
+        "requestId": "",
+        "otp": "111111"
+    },
+    
+    "VerifyTicketceationmobileNo":{
+        "mobileNumber": 7586586986,
+        "custId": ""
+    },
+
+    "verifyMPINTicketCreationmobileno":{
+        "mobileNumber": 7586586986,
+        "mpin": "1111",
+        "module": "LOGIN",
+        "custId": ""
+    },
+
+    "verifyTCSRequest":{
+        "category": "Refund",
+        "subCategory": "Excess Refund",
+        "description": "Need to Clarify the Refund Amount"
+    },
+
+    "verifyTCErrorRequest":{
+        "category": " ",
+        "subCategory": "DDR amount clarification required",
+        "description": "Need to Clarify the DDR Amount"
+    },
+
+    "verifyUpdateMobileno":{
+        "mobileNumber": "7890876543",
+        "pan": "GZJPW8073F",
+        "module": "UPDATE_MOBILE"
+    },
+
+    "verifyConfirmUpdateMobileno":{
+        "requestId": "",
+        "otp": "111111"
+    },
+
+    "verifyExistingUserMobileNo":{
+        "mobileNumber": "9834661017",
+        "pan": "GZJPW8073F",
+        "module": "UPDATE_MOBILE"
+    },
+
+    "verifyUpdateEmail":{
+        "email": "",
+        "module": "UPDATE_EMAIL"
+    },
+
+    "verifyconfirmEmail":{
+        "requestId": "",
+        "otp": "111111",
+        "module": "UPDATE_EMAIL"
+      },
+
+    "verifyLoginAPI":{
+        "mobileNumber": "",
+        "custId": "BEJ012"
+    },
+
+    "verifyLoginApi":{
+        "mobileNumber": "",
+        "mpin": 1111,
+        "module": "LOGIN",
+        "custId": "BEJ012"
+    },
+    
+    "verifyotherLoginAutoAPI":{
+        "mobileNumber": "",
+        "custId": "ETT277"
+    },
+
+    "verifyotherMpinAutoApi":{
+        "mobileNumber": "",
+        "mpin": 4444,
+        "module": "LOGIN",
+        "custId": "ETT277"
+    },
+
+    "verifyEventLog":{
+        "event_type": "LOGIN_SUCCESS_MPIN"
+    },
+
+    "verifyinvalidEventLog":{
+        "event_type": "LOGIN_SUCCESS_MPI"
+    }
+
+}
